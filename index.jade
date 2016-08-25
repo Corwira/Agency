@@ -1,0 +1,258 @@
+doctype html
+html
+  head
+    title Agency
+    | &#x9;
+    meta(charset='utf-8')
+    | &#x9;
+    meta(name='description', content='Agency')
+    |     
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // CSS Files
+    link(rel='stylesheet', href='css/style.css')
+    // Fonts
+    // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      |         
+      script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
+    
+  body
+  
+        // header
+  header#home
+    .header
+        .header__logo
+          img(src='img/logo.png', alt='logo')                 
+        h1.header__head creative agency for ambitious brands   
+        h5.header__text
+          | Our creative team have no boundries.
+          br
+          | Crafts interactive experiences that delight and inspired
+      
+        // main navigation
+       .banner
+   nav(role='navigation')
+        ul
+          li
+            a(href='#home') home                        
+          li
+            a(href='#services') services                         
+          li
+            a(href='#about') about                         
+          li
+            a(href='#clients') clients                         
+          li
+            a(href='#contact') contact                         
+          li
+            a(href='#inquiry') inquiry
+    // end header
+    
+    // tabs icons
+    .tabs
+        ul.tabs__icons
+         li.icons__item
+          img(src='img/tabs1.png', alt='website icon')
+         li.icons__item
+          img(src='img/tab2.png', alt='search icon')
+         li.icons__item
+          img(src='img/tab3.png', alt='smm icon')
+    // end tabs icons
+    
+    // services section 
+    section#services
+      .services__head.heading
+        h5.heading__main Website Design
+        h2.heading__lead Design that&apos;s changed everything!
+        
+       .services__content
+         .s-content__item
+           .s-content__item__heading User interface &amp; user experience
+           .s-content__item__text text
+         .s-content__item
+           .s-content__item__heading responsive design
+           .s-content__item__text text
+         .s-content__item
+           .s-content__item__heading quick page load time
+           .s-content__item__text text
+         .s-content__item
+           .s-content__item__heading B2B specific elements
+           .s-content__item__text text
+         .s-content__item
+           .s-content__item__heading website flow
+           .s-content__item__text text
+         .s-content__item
+           .s-content__item__heading easy navigation
+           .s-content__item__text text
+    // end services section
+     
+    // about section
+    section#about
+      .about__head.heading
+         h5.heading__main success we deserve
+         h2.heading__lead we have something to be proud of!
+      .about__content
+         .a-content__item
+            h2.a-content__item__number 1000+
+            h5.a-content__item__heading Completed projects
+            p.a-content__item__text text
+         .a-content__item
+            h2.a-content__item__number 500+
+            h5.a-content__item__heading happy clients
+            p.a-content__item__text text
+         .a-content__item
+            h2.a-content__item__number 22%
+            h5.a-content__item__heading annual growth
+            p.a-content__item__text text    
+    //end about section
+         
+         
+   // benefits section
+   section#benefits
+      .benefits__head.heading
+         h5.heading__main Website Design
+         h2.heading__lead loves to take on new challenges
+        
+      .benefits__content
+         .b-content__item
+            img(src='img/ben1.png', alt='group of people icon')
+            p.b-content__text some text here
+        .b-content__item
+            img(src='img/ben2.png', alt='layers icon')
+            p.b-content__text some text here
+        .b-content__item
+            img(src='img/ben3.png', alt='eye icon')
+            p.b-content__text some text here
+        .b-content__item
+            img(src='img/ben4.png', alt='medal icon')
+            p.b-content__text some text here
+        .b-content__item
+            img(src='img/ben5.png', alt='person icon')
+            p.b-content__text some text here
+        .b-content__item
+            img(src='img/ben6.png', alt='lamp icon')
+            p.b-content__text some text here
+    // end benefits section 
+        
+        
+    //clients section 
+    #clients
+       .clients__logo
+          img(src='img/client1.png')
+        .clients__logo
+          img(src='img/client2.png')
+        .clients__logo
+          img(src='img/client3.png')
+        .clients__logo
+          img(src='img/client4.png')    
+    //end clients section 
+    
+    
+    //testimonials section
+    section
+      .testimonials__head heading
+       h5.heading__main Testimonials
+       h2.heading__lead what our client say's
+       
+      .testimonials__content
+         .t-content__item
+            p.t-content__item__text some text
+            .t-content__item__info
+               img(src='img/rev1.png')
+                p Sherri Neal
+                span
+                
+        .t-content__item
+            p.t-content__item__text some text
+            .t-content__item__info
+               img(src='img/rev2.png')
+                p Howard Shaw
+                span
+                
+        .t-content__item
+            p.t-content__item__text some text
+            .t-content__item__info
+               img(src='img/rev3.png')
+                p Gloria Burke
+                span
+    // end testimonial section
+            
+            
+    // contact section
+    section#contact
+      .testimonials__head heading
+       h5.heading__main Be with us
+       h2.heading__lead connect with us
+       
+       .testimonials__content
+          p.t-content__text some text
+          input(type='email', name='email', placeholder='Enter your email address', autofocus='')                     
+          button(type='submit')
+    // end contact section 
+    
+    // footer
+    footer__content
+       .f-content__item.about
+           h3.f-content__item__head about agency
+           p.f-about__text text
+           ul.f-about__social
+              li.social__facebook
+                 a(href='')
+              li.social__twitter
+                 a(href='')
+              li.social__googleplus
+                 a(href='')
+              li.social__linkedin
+                 a(href='')
+              li.social__instagram
+                 a(href='')
+           p.f-about__copyright 2016 Design by s-agency | Code by Purtova Anastasia
+           
+        .f-content__item posts
+           h3.f-content__item__head recent posts
+           .post__item
+              img.posts__item__img(src='img/post1.png') 
+              p.posts__item__head the benefits of website multimedia integration
+              span.posts__item__date February 20, 2015
+                    
+           .post__item
+              img.posts__item__img(src='img/post2.png') 
+              p.posts__item__head seamless E-Commerce solutions
+              span.posts__item__date February 20, 2015
+              
+            .post__item
+              img.posts__item__img(src='img/post3.png') 
+              p.posts__item__head best practices in website design
+              span.posts__item__date February 20, 2015
+              
+        .f-content__item contact
+            h3.f-content__item__head contact us
+            .contact__item
+               p.contact__item__text Phone number
+               span.contact__item__phone +91 81289 98806
+            .contact__item
+               p.contact__item__text Email Address
+               span.contact__item__email exapmle@com
+            .contact__item
+               p.contact__item__text Address
+               span.contact__item__text Street, City, Country
+               
+            // footer menu
+           .footer__menu
+                ul.menu__list
+                  li.m-list__item
+                     a(href="#") Website design
+                  li.m-list__item
+                     a(href="#") web programming
+                  li.m-list__item
+                     a(href="#") internet marketing
+                  li.m-list__item
+                     a(href="#") reputation management
+                  li.m-list__item
+                     a(href="#") search engine marketing
+                  li.m-list__item
+                     a(href="#") seacrh engine optimization 
+            // end footer
