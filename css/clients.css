@@ -1,0 +1,23 @@
+/* clients section */
+#clients {
+    width: 100%;
+    height: 175px;
+    background: #fff;
+} 
+
+.clients__logos {
+    display: flex;
+    width: 1050px;
+    padding: 65px 0;
+    margin: 0 auto;
+}
+
+.clients__logo {
+    flex: 1;
+    text-align: center;
+    transition: all .3s ease-in;
+}
+
+.clients__logo:hover {
+    transform: scale(1.1);
+}

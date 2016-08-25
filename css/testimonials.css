@@ -1,0 +1,79 @@
+/* testimonials section */
+.testimonials {
+    width: 100%;
+    height: 740px;
+    background: #25263e url('../img/rev-bg.png') no-repeat;
+    background-size: cover;
+}
+
+
+.testimonials__content {
+    max-width: 1150px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.t-content__item {
+    width: 360px;
+    border-top: 5px solid #00bbd3;
+    margin-right: 30px;
+}
+
+.t-content__item__text {
+    flex: 1;
+    width: inherit;
+    height: 216px;
+    background: rgba(255,255,255,.2);
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.t-content__item:first-child {
+    border-top: 5px solid #50c05f;
+}
+
+.t-content__item:last-child {
+    margin-right: 0;
+    border-top: 5px solid #fe4565;
+}
+
+.t-content__item__text p {
+    font-size: 1.42em;
+    color: #fff;
+    font-weight: 300i;
+    line-height: 1.2em;
+    padding: 40px 30px 0 30px;
+}
+
+.t-content__item__text:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 17px 20px 0;
+    border-color: rgba(255,255,255,.2) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -17px;
+    left: 160px;
+}
+
+.t-content__item__info {
+    text-align: center;
+    color: #fff;
+}
+
+.t-content__item__info p {
+    font-size: 1.28em;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+t-content__item__info span {
+    font-size: 0.92em;
+}
